@@ -1,0 +1,71 @@
+.fontFamily{
+    font-family: 'Bebas Neue', cursive;
+}
+.font{
+    /*font-family: 'League Gothic', sans-serif;*/
+    font-family: 'Cabin', sans-serif;
+    font-size:15px;
+    font-weight:lighter;
+    letter-spacing: 1px;
+}
+.font2{
+    font-size: 15px;
+}
+.fontItem{
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+}
+.fondo{
+    background-image: url(./src/fondoPizza1.jpg);
+    background-size:135vmax 100vmax;
+    background-repeat:no-repeat;
+}
+body{
+    cursor: url(./src/cursor.png),auto;
+}
+a{
+    cursor: url(./src/mano.png),auto;
+}
+.gradient{
+    
+    width:275px;
+    border-width: 0px;
+    margin-left: 39vmax;
+    margin-top: 4vh;
+    background:rgba(0,0,0,0.50);
+    box-shadow: 0px 0px 17px 7px;
+    border-radius: 20px 30px;
+    border-color: black;
+}
+.gradient2{
+    
+    width: 80vmax;
+    height: 73vmax;
+    border-width: 0px;
+    margin-left: 9.5vmax;
+    margin-top: 3.5vh;
+    background:rgba(0,0,0,0.70);
+    box-shadow: 0px 0px 20px 5px;
+    border-radius: 20px;
+    border-color: black;
+}
+.borderRad{
+    border-radius: 15px;
+}
+.containerGrid{
+    display: grid;
+    grid-template-columns: 33.333% 33.333% 33.333%;
+    padding-top: 4px;
+}
+.paddingBloqueDeProducto{
+    width: 26.5vmax;
+    height: 23vmax;
+    padding-left: 1vmax;
+    padding-right: 1vmax;
+}
+.menuCenter{
+    font-family: 'Pacifico', cursive;
+    padding-left: 33vmax;
+    padding-top: 1vmax;
+    font-size: 50px;
+}
